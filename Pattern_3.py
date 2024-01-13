@@ -1,0 +1,24 @@
+n=int(input())
+i=1
+while i<=n:
+    z1=1
+    while z1<=i-1:
+        print(0,end='')
+        z1=z1+1
+    print('*',end='')
+    z1=1
+    while z1<=n-i:
+        print(0,end='')
+        z1=z1+1
+    print('*',end='')
+    z1=1
+    while z1<=n-i:
+        print(0,end='')
+        z1=z1+1
+    print('*',end='')
+    z1=1
+    while z1<=i-1:
+        print(0,end='')
+        z1=z1+1
+    print('')
+    i=i+1
